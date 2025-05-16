@@ -1,0 +1,16 @@
+# Ambiente virtual
+new_venv/
+
+# Checkpoints automáticos do Jupyter
+.ipynb_checkpoints/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do sistema e editores
+*.DS_Store
+*.swp
+*.swo
