@@ -6,7 +6,20 @@ Este projeto tem como objetivo criar um modelo de aprendizado de máquina para p
 
 A estrutura do projeto é organizada da seguinte forma:
 
-heart-project/ ├── README.md ├── requirements.txt ├── dataBase/ │ └── heart.csv ├── new_venv/ │ └── (ambiente virtual Python) ├── notebooks/ │ └── EDA.ipynb ├── pickle/ │ └── svm_model.pkl └── utils/ ├── init.py └── preprocessing.py
+heart-project/
+├── README.md
+├── requirements.txt
+├── dataBase/
+│ └── heart.csv
+├── new_venv/
+│ └── (ambiente virtual Python)
+├── notebooks/
+│ └── EDA.ipynb
+├── pickle/
+│ └── svm_model.pkl
+├── utils/
+│ ├── init.py
+│ └── preprocessing.py
 
 
 ### Descrição dos Diretórios
