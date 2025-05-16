@@ -41,7 +41,7 @@ O projeto segue a metodologia CRISP-DM, com as seguintes etapas:
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/RafaaelMendonca/heart_project.git
    cd heart-project
 
 2. Ative o ambiente virtual:
