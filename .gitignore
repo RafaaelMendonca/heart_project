@@ -1,16 +1,16 @@
-# Ambiente virtual
+# Ignorar venv
 new_venv/
+venv/
+.env/
+.venv/
 
-# Checkpoints automáticos do Jupyter
-.ipynb_checkpoints/
-
-# Cache do Python
+# Ignorar __pycache__ e arquivos compilados
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+**/__pycache__/
 
-# Arquivos do sistema e editores
-*.DS_Store
-*.swp
-*.swo
+# Outras pastas e arquivos que você não quer
+.DS_Store
+*.log
