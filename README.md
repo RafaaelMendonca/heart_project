@@ -94,16 +94,16 @@ Você pode fazer requisições POST para o endpoint `/predicao` com um JSON como
     "age": 63,
     "sex": 1,
     "cp": 3,
-    "trestbps": 145,
+    "trtbps": 145,
     "chol": 233,
     "fbs": 1,
     "restecg": 0,
-    "thalach": 150,
-    "exang": 0,
+    "thalachh": 150,
+    "exng": 0,
     "oldpeak": 2.3,
-    "slope": 0,
-    "ca": 0,
-    "thal": 1
+    "slp": 0,
+    "caa": 0,
+    "thall": 1
 }
 ```
 
@@ -118,4 +118,4 @@ Resposta esperada:
 
 ## 🤝 Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Contribuições são bem-vindas!
