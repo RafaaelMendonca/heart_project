@@ -1,5 +1,6 @@
 import sys
 import os
+from flask-cors import CORS
 
 # Adiciona o caminho da raiz do projeto ao sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -10,6 +11,7 @@ import pandas as pd
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
+CORS(app)
 
 with open('../pickle/svm_model.pkl', 'rb') as f:
     model = pickle.load(f)
@@ -39,8 +41,8 @@ def predicao():
     probabilidade = model.predict_proba(df)[0]
 
     mapa_predicao = {
-        0: "Saudável",
-        1: "Doença cardíaca"
+        0: "Healthy",
+        1: "Heart Disease"
     }
 
     predicao_nome = mapa_predicao[predicao[0]]
