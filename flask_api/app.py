@@ -1,6 +1,6 @@
 import sys
 import os
-from flask-cors import CORS
+from flask_cors import CORS
 
 # Adiciona o caminho da raiz do projeto ao sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
