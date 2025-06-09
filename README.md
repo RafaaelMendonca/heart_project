@@ -116,7 +116,7 @@ Resposta esperada:
 }
 ```
 
-``j̀son
+```json
 {
     "age": 57,
     "sex": 0,
