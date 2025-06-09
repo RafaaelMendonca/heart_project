@@ -116,6 +116,32 @@ Resposta esperada:
 }
 ```
 
+``j̀son
+{
+    "age": 57,
+    "sex": 0,
+    "cp": 0,
+    "trtbps": 140,
+    "chol": 241,
+    "fbs": 0,
+    "restecg": 1,
+    "thalachh": 123,
+    "exng": 1,
+    "oldpeak": 0.2,
+    "slp": 1,
+    "caa": 0,
+    "thall": 3
+}
+```
+
+```
+{
+  "confianca": 67.0,
+  "predicao": "Healthy"
+}
+```
+
+
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas!
